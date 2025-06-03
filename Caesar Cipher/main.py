@@ -30,7 +30,7 @@ def caesar(final_direction, original_text, shift_amount):
             final_text += letter
         print(final_text)
     else:
-        print("You did not type encode or decode. Restart the program")
+        print("You did not type encode or decode. Restart the program.")
 
 
 play_again = True
