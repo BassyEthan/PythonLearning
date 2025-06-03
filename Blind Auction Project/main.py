@@ -4,7 +4,7 @@
 # TODO-4: Compare bids in dictionary
 from art import logo
 print(logo)
-print("Welcome to the bid")
+print("Welcome to the bid!")
 play_again = True
 bidders = {}
 winner_bid = 0
