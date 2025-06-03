@@ -39,7 +39,7 @@ def yes_or_no():
     if another_card == "yes":
         another_player_card()
         if sum(player_card) > 21:
-            print("YOU LOST - YOUR CARD SUM IS > 21")
+            print("YOU LOST :( - YOUR CARD SUM IS > 21")
             return False
         return True
     else:
